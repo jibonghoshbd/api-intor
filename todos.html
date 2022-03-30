@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todos</title>
+    <!-- style  -->
+    <style>
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            background-color: beige;
+            padding: 10px;
+        }
+
+        #todos-continer {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 10px;
+        }
+
+        .todo {
+            text-align: center;
+            border: 2px solid goldenrod;
+            margin: 10px;
+            background-color: antiquewhite;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .todo h3 {
+            text-transform: uppercase;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Todos Api Call</h1>
+    <section id="todos-continer">
+
+    </section>
+
+    <script src="js/todos.js"></script>
+</body>
+
+</html>
